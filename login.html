@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Food Guys</title>
+  </header>
+  <style>
+    body {
+      background: #222831 0% 0% no-repeat padding-box;
+    }
+    form {
+      background: gray;
+      height: 90%;
+      padding: 27px 50px;
+      backdrop-filter: blur(20px);
+    }
+    input {
+      align-self: center;
+      height: 40px;
+      background: #eeeeee 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 10px;
+      border: unset;
+    }
+    button {
+      align-self: center;
+      height: 40px;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 10px;
+      border: unset;
+    }
+
+    ::placeholder {
+      text-align: center;
+    }
+
+    ::-webkit-input-placeholder {
+      text-align: center;
+    }
+
+    :-ms-input-placeholder {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div style="display: flex; gap: 26px">
+      <img
+        src="./image.jpeg"
+        style="margin: 46px 0px 46px 46px; height: 100%"
+      />
+      <div>
+        <form style="display: grid">
+          <img src="./logo.png" width="126px" style="place-self: center" />
+          <input type="text" placeholder="Login" />
+          <input type="text" placeholder="Password" />
+          <button style="background: #7d9d9c 0% 0% no-repeat padding-box">
+            Login
+          </button>
+          <button style="background: #576f72 0% 0% no-repeat padding-box">
+            Continue With Google
+          </button>
+          <a href="/register.html">Create Account</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
