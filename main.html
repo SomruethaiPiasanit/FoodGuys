@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Food Guys</title>
+  </header>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+    }
+    nav {
+      top: 0;
+      z-index: 999;
+      height: 50px;
+      width: 100%;
+      background: #393e46 0% 0% no-repeat padding-box;
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+    }
+    .container {
+      margin-top: 50px;
+      height: calc(100%-50px);
+    }
+    .card {
+      background: #eeeeee 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 6px #00000029;
+      border-radius: 20px;
+      margin: 80px 80px 0px 80px;
+      height: 90%;
+    }
+  </style>
+  <body>
+    <nav>
+      <img
+        src="./logo.png"
+        height="35px"
+        style="margin-left: 23px; align-self: center"
+      />
+      <div style="display: flex; gap: 25px; margin-right: 25px">
+        <div style="align-self: center; font-size: 17px; color: white">
+          Full name
+        </div>
+        <div style="align-self: center; margin-top: 7px">
+          <img src="./logo.png" width="25px" /><br />
+          <a href="/login.html" style="font-size: 7px; color: white">Logout</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="card"></div>
+    </div>
+  </body>
+</html>
