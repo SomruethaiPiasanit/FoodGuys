@@ -1,11 +1,11 @@
 html,
 body {
   height: 100%;
-
 }
 
 body {
   margin: 0;
+  background-color: #222831;
 }
 
 nav {
@@ -108,13 +108,12 @@ input[type="submit"] {
   border-radius: 20px;
   background-color: #7d9d9c;
   color: #eeeeee;
-
 }
 
 .row {
   display: flex;
 }
 
-.image-upload>input {
+.image-upload > input {
   display: none;
 }
