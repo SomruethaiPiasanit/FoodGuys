@@ -72,17 +72,18 @@
       <div class="card-content">
         <form action="/main.html">
           <div class="row">
-            <div style="width: 96%;" class="">
+            <div style="width: 100%;">
               <textarea oninput="auto_grow(this)" placeholder="    What are you thinking?"></textarea>
             </div>
             <div class="image-upload">
               <label for="file-input">
-                <img width="30px" height="30px" style="padding: 5px; align-self: center" src="./camera.png" />
+                <img width="30px" height="30px" style="padding: 10px; align-self: center ;" src="./camera.png" />
               </label>
-              <input id="file-input" type="file" onchange="readURL(this);" />
+              <input id="file-input" type="file" onchange="readURL(this);"/> 
             </div>
-            <br />
-            <img id="blah" src="http://placehold.it/180" alt="" />
+          </div>
+          <div style="text-align-last: center; ">
+            <img id="blah" src="" alt="" />
           </div>
           <input type="submit" value="POST" />
         </form>
